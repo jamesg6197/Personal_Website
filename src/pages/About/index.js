@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from '../../layout/Layout';
+import { Img, FlexContainer } from "../../layout/LayoutStyles.js";
 import { Section, SectionTitle, SectionDivider} from '../../styles/GlobalComponents';
-import {Img, FlexContainer} from "./styles.js";
 import Technologies from "../../components/Technologies/Technologies";
 const About = () => {
     return (
