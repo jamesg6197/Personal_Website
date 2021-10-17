@@ -27,7 +27,7 @@ jobs:
             CI: true
 
       - name: Deploy 🚀
-        uses: jamesg6197/github-pages-deploy-action@3.6.2
+        uses: jamesg6197/Personal_Website
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
